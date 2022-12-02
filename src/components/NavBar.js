@@ -52,9 +52,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#geg"><img src={navIcon1} alt="" /></a>
-                <a href="hhdh"><img src={navIcon2} alt="" /></a>
-                <a href="etyhs"><img src={navIcon3} alt="" /></a>
+              <a href="https://twitter.com/Harnu1111"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.instagram.com/harnu1111/"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://wa.me/+2348144137817"><img src={navIcon3} alt="Icon" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
