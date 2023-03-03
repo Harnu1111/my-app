@@ -29,7 +29,7 @@ export const Banner = () => {
   
 
     setText(updatedText);
-    console.log(index)
+    
 
     if (isDeleting) {
       setDelta(prevDelta => prevDelta / 2);

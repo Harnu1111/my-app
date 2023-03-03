@@ -400,6 +400,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+.project i {
+  color: #B8B8B8;
+  font-size: 14px;
+ display: block;
+}
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -472,6 +477,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 .proj-txtx {
+  color: #fff;
   position: absolute;
   text-align: center;
   top: 65%;
@@ -486,6 +492,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;

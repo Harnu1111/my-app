@@ -41,19 +41,19 @@ return (
                       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                           <div className="item">
                               <img src={meter1} alt="meter" />
-                              <h5>Web Development</h5>
+                              <h5>React Js</h5>
                           </div>
                           <div className="item">
                               <img src={meter2} alt="meter" />
-                              <h5>Brand Identity</h5>
+                              <h5> JavaScript</h5>
                           </div>
                           <div className="item">
                               <img src={meter3} alt="meter" />
-                              <h5>Logo Design</h5>
+                              <h5>HTML & CSS</h5>
                           </div>
                           <div className="item">
                               <img src={meter1} alt="meter" />
-                              <h5>Web Development</h5>
+                              <h5>API</h5>
                           </div>
                       </Carousel>
                   </div>
