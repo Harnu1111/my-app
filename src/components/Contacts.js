@@ -41,7 +41,6 @@ import TrackVisibility from "react-on-screen";
                         placeholder="First Name"
                         
                           
-                        
                       />
                     </Col>
                     <Col size={12} sm={6} className="px-1">

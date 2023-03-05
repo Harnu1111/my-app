@@ -3,6 +3,10 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import projImg1 from "../assets/img/project1.png";
 import projImg2 from "../assets/img/project2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg33 from "../assets/img/project3.png";
+import projImg4 from "../assets/img/project4.png";
+import projImg5 from "../assets/img/project5.png";
+import projImg6 from "../assets/img/project6.png";
 import react1 from "../assets/img/react1.png";
 import react2 from "../assets/img/react2.png";
 import html1 from "../assets/img/HTML1.png";
@@ -80,55 +84,58 @@ export const Projects = () => {
                                 <div className="proj-txtx">
                                   <h4>Joke Generator</h4>
                                   <span>App to generate Jokes</span>
-                                  <i>Designed using API from </i>
+                                  <i>Designed using API from jokeApi </i>
                                 </div>
                               </a>
                             </div>
                           </Col>
                           <Col size={12} sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a href="https://shop-with-harnu.netlify.app/">
-                                <img src={react1} alt="" />
+                              <a href="https://harnu-random-fact.netlify.app/">
+                                <img src={projImg33} alt="" />
                                 <div className="proj-txtx">
-                                  <h4>E-Commerce</h4>
-                                  <span>fully responsive Ecommerce app</span>
-                                  <i>Designed using React js and SyncFusion</i>
+                                  <h4>Random Facts</h4>
+                                  <span>App to generate Random Facts</span>
+                                  <i>Designed using API </i>
                                 </div>
                               </a>
                             </div>
                           </Col>
                           <Col size={12} sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a href="https://shop-with-harnu.netlify.app/">
-                                <img src={react1} alt="" />
+                              <a href="https://harnu-country-guide.netlify.app/">
+                                <img src={projImg4} alt="" />
                                 <div className="proj-txtx">
-                                  <h4>E-Commerce</h4>
-                                  <span>fully responsive Ecommerce app</span>
-                                  <i>Designed using React js and SyncFusion</i>
+                                  <h4>Country Guide</h4>
+                                  <span>
+                                    Country Guide App for information about
+                                    Countries
+                                  </span>
+                                  <i>Designed using API </i>
                                 </div>
                               </a>
                             </div>
                           </Col>
                           <Col size={12} sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a href="https://shop-with-harnu.netlify.app/">
-                                <img src={react1} alt="" />
+                              <a href="https://harnu-dictionary.netlify.app/">
+                                <img src={projImg5} alt="" />
                                 <div className="proj-txtx">
-                                  <h4>E-Commerce</h4>
-                                  <span>fully responsive Ecommerce app</span>
-                                  <i>Designed using React js and SyncFusion</i>
+                                  <h4>Dictionary</h4>
+                                  <span>Dictionary App</span>
+                                  <i>Designed using API </i>
                                 </div>
                               </a>
                             </div>
                           </Col>
                           <Col size={12} sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a href="https://shop-with-harnu.netlify.app/">
-                                <img src={react1} alt="" />
+                              <a href="https://harnu-meme-app.netlify.app/">
+                                <img src={projImg6} alt="" />
                                 <div className="proj-txtx">
-                                  <h4>E-Commerce</h4>
-                                  <span>fully responsive Ecommerce app</span>
-                                  <i>Designed using React js and SyncFusion</i>
+                                  <h4>Meme Generator</h4>
+                                  <span>Generate Random Meme</span>
+                                  <i>Designed using API </i>
                                 </div>
                               </a>
                             </div>
