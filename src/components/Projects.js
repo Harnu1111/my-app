@@ -173,13 +173,11 @@ export const Projects = () => {
                           </Col>
                           <Col size={12} sm={6} md={4}>
                             <div className="proj-imgbx">
-                              <a href="/">
-                                <img src={projImg3} alt="" />
-                                <div className="proj-txtx">
-                                  <h4>Coming Soon</h4>
-                                  <span>in the works</span>
-                                </div>
-                              </a>
+                              <img src={projImg3} alt="" />
+                              <div className="proj-txtx">
+                                <h4>Coming Soon</h4>
+                                <span>in the works</span>
+                              </div>
                             </div>
                           </Col>
                         </Row>
