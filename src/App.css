@@ -700,7 +700,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media only screen and (max-width: 768px){
-  .footer img {
+  #flogo{
  display: none;
 }
 }
