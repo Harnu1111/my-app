@@ -4,7 +4,7 @@ import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
-import { Preloader } from "./components/Preloader";
+import { Preload } from "./components/Preload";
 import { Contacts } from "./components/Contacts";
 import { Footer } from "./components/Footer";
 
@@ -13,7 +13,7 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Preloader/>
+      <Preload/>
       <NavBar />
       <Banner />
       <Skills />
