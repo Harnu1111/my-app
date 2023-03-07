@@ -23,7 +23,7 @@ export const Banner = () => {
       clearInterval(ticker);
     };
   });
-  console.log(index);
+
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
@@ -46,6 +46,7 @@ export const Banner = () => {
       setLoopNum(loopNum + 1);
       setIndex(1);
       setDelta(500);
+      index()
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
@@ -87,7 +88,7 @@ export const Banner = () => {
                   </button>
                   <a href="https://drive.google.com/file/d/1B7ahNTPsBnC5Yf10OQ4i-EOhhYvXQoIM/view?usp=sharing">
                     <button>
-                     Download CV <ArrowRightCircle size={25} />
+                      Download CV <ArrowRightCircle size={25} />
                     </button>
                   </a>
                 </div>
